@@ -106,7 +106,7 @@ const Cart = () => {
   const [products, setProducts] = useState([]);
   const dispatch = useDispatch();
   const cart1 = useSelector((state) => state.meracounter.cart);
-  console.log("cart:", cart1);
+  console.log("carttt:", cart1);
 
   useEffect(() => {
     axios.get("https://fakestoreapi.com/products").then((response) => {
